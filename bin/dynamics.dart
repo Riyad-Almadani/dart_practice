@@ -7,6 +7,10 @@ void main() {
 
   var myVariable; // default to dynamic
   myVariable = 42; // Ok
-  myVariable = 'Hello'; // Ok 
+  myVariable = 'Hello'; // Ok
+
+  // You can use object? to say any type is allowed
+  Object? myVariables = 42;
+  myVariables = 'Hello'; //Ok
   
 }
