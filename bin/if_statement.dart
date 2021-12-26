@@ -1,8 +1,25 @@
 void main() {
-  const x = 0;
-  if (x > 1) {
-    print('Yes, 2 is greater than 1.');
+  // if and else
+
+  const animal = 'Fox';
+  if (animal == 'Cat' || animal == 'Doge') {
+    print('Animal is a house pet.');
   } else {
-    print('No $x is not greater than 1');
+    print('Animal is not a house pet.');
   }
+
+  // else-if chains
+
+  const trafficLight = 'yallow';
+  var command = '';
+  if (trafficLight == 'red') {
+    command = 'Stop';
+  } else if (trafficLight == 'yallow') {
+    command = 'Slow Down';
+  } else if (trafficLight == 'green') {
+    command = 'Go';
+  } else {
+    command = 'INVALID COLOR';
+  }
+  print(command);
 }
